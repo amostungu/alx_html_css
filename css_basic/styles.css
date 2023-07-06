@@ -1,0 +1,88 @@
+body
+{
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(223, 210, 224);
+}
+main
+{
+	display: flex;
+	flex-direction: row;
+	flex: auto;
+}
+header
+{
+    background-color: black;
+}
+header > ul
+{
+    display: block;
+    float: right;
+    margin-right: 4rem;
+}
+header > ul > li
+{
+    display: inline;
+    padding-left: 3rem;
+    list-style: none;
+}
+header > ul > li > a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    cursor: pointer;
+}
+header > ul > li > a:hover
+{
+    color: bisque;
+    transition: 1s color;
+}
+article
+{
+    flex: 2;
+    overflow: auto;
+    border: 2px solid black;
+    padding-left: 2rem;
+    text-align: center;
+}
+
+aside
+{
+    flex: 1;
+    overflow: auto;
+    padding-left: 2rem;
+}
+
+table{
+    margin: 10px auto;
+}
+
+tr, th, td{
+    text-align: center;
+    border: 1px solid black;
+    font-size: 1.2em;
+    padding: 10px;
+}
+h2{
+    font-size: 3em;
+}
+article a{
+    text-decoration: none;
+    display: block;
+    font-size: 1.3em;
+}
+img{
+    width: 30rem;
+}
+aside p{
+    font-size: 1.8em;
+
+}
+footer{
+    background-color: black;
+    height: 2rem;
+    color: white;
+    text-align: center;
+    padding-top: 1rem;
+}
