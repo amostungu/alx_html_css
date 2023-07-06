@@ -3,6 +3,7 @@ body
 	display: flex;
 	flex-direction: column;
 	background-color: rgb(223, 210, 224);
+	height: 100vh;
 }
 main
 {
