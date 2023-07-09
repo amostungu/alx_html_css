@@ -265,11 +265,14 @@
   
   /* Header
       ============================= */
+  .header-container {
+      align-items: center;
+      }
   
   .header {
     padding: var(--header-padding);
          position: relative;
-         align-items: center;
+         /*align-items: center;*/
          z-index: 3;
          background: transparent;
   }
