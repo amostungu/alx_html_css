@@ -179,17 +179,20 @@
   
   /* Grid
       ============================= */
-  
-  .row {
-    display: flex;
-  }
 
+.row {
+    display: flex;
+}
+      
   ul.row {
     margin: 0;
     padding: 0;
     list-style: none;
   }
-  
+
+  .row {
+    display: flex;
+  }
   
   [class*='col-'] {
     padding: 0.5rem;
@@ -445,7 +448,15 @@
   .card-work:hover .card-title {
     opacity: 1;
   }
+
+    /* Section Works
+      ============================= */
+
+   .section-works{
+
+    }
   
+
   /* Card SERVICES
       ============================= */
   
@@ -465,6 +476,12 @@
     text-decoration: none;
     transition-duration: 0.3s;
     transition-property: color, background-color;
+  }
+
+    /* Section SERVICES
+      ============================= */
+ .section-services{
+
   }
   
   /* Card TESTIMONIAL
@@ -499,3 +516,28 @@
     font-size: 10rem;
     z-index: -1;
   }
+
+  /* Section Testimonial*/
+
+  .section-testimonial{
+
+  }
+
+    /* Section About Us
+      ============================= */
+
+.section-about-us{
+
+}
+
+  /* Section Latest News
+      ============================= */
+.section-lastest-news{
+
+}
+
+  /* Section Contact
+      ============================= */
+.section-contact{
+
+}
